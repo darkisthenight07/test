@@ -2,10 +2,6 @@
 
 > Revolutionizing campus facility management with real-time queue tracking and QR-based check-ins
 
-[![Firebase](https://img.shields.io/badge/Firebase-Powered-orange)](https://firebase.google.com/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.52.2-red)](https://streamlit.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 ## 📋 Table of Contents
 - [Problem Statement](#problem-statement)
 - [Solution Overview](#solution-overview)
@@ -321,7 +317,6 @@ The app will open at `http://localhost:8501`
 
 **Jalaj Bhadouria**
 - GitHub: [@jalajbhadouria](https://github.com/darkisthenight)
-[![Jalaj Bhadouria profile views](https://u8views.com/api/v1/github/profiles/227359471/views/day-week-month-total-count.svg)](https://u8views.com/github/darkisthenight07)
 - Email: jalaj4b@gmail.com
 
 ## 📄 License

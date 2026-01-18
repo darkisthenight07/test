@@ -13,7 +13,6 @@
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Impact & Practicality](#impact--practicality)
-- [Future Enhancements](#future-enhancements)
 - [Team](#team)
 - [License](#license)
 

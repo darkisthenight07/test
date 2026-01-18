@@ -61,8 +61,8 @@ def setup_database():
     for email in SUPER_ADMIN_EMAILS:
         success, message = auth_manager.register_user(
             email=email,
-            password='admin123',  # Default password - CHANGE THIS!
-            name='Admin User',
+            password='superadmin123',  
+            name='Super Admin User',
             role=ROLES['SUPER_ADMIN']
         )
         
@@ -76,7 +76,7 @@ def setup_database():
     print("\n🎓 Creating sample student account...")
     
     success, message = auth_manager.register_user(
-        email='student@campus.edu',
+        email='student@iiti.ac.in',
         password='student123',
         name='Test Student',
         role=ROLES['STUDENT']
@@ -85,6 +85,19 @@ def setup_database():
     if success:
         print(f"   ✅ Created student: student@campus.edu")
         print(f"      🔑 Password: student123")
+    else:
+        print(f"   ⚠️  {message}")
+
+    success, message = auth_manager.register_user(
+        email='admin@iiti.ac.in',
+        password='admin123',
+        name='Test Admin',
+        role=ROLES['ADMIN']
+    )
+    
+    if success:
+        print(f"   ✅ Created admin: admin@campus.edu")
+        print(f"      🔑 Password: admin123")
     else:
         print(f"   ⚠️  {message}")
     

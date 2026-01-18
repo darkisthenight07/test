@@ -28,8 +28,7 @@ ROLES = {
 
 # Admin Emails (Super Admins)
 SUPER_ADMIN_EMAILS = [
-    'admin@iiti.ac.in',
-    'your.email@campus.edu'  # Add your email
+    'superadmin@iiti.ac.in',
 ]
 
 # Queue Status Thresholds

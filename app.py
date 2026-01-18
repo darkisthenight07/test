@@ -60,7 +60,6 @@ def main():
     
     # Sidebar navigation
     with st.sidebar:
-        st.image("https://via.placeholder.com/300x100/4CAF50/FFFFFF?text=QLess", width='stretch')
         st.title(APP_CONFIG['app_name'])
         st.markdown(f"**Version** {APP_CONFIG['app_version']}")
         st.markdown("---")
@@ -94,7 +93,6 @@ def main():
     st.markdown(f"""
         <div style="text-align: center; color: gray; padding: 20px;">
             <p>{APP_CONFIG['app_name']} - Smart Campus Queue Manager</p>
-            <p style="font-size: 12px;">Built for HackSync 2024 | Made with ❤️ using Python, Streamlit & Firebase</p>
         </div>
     """, unsafe_allow_html=True)
 
